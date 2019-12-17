@@ -213,6 +213,6 @@ def start(conf, data, model, record_id=0, pre_model='', bias_epoch=0):
         # print log to console and log_file
         print('Epoch:%s' % (epoch))
         print('Duality train Loss:%.4f, val loss:%.4f, test loss:%.4f' % (train_duality_loss, val_duality_loss, test_duality_loss))
-        print('E2R: train loss:%.4f, val loss:%.4f, test loss:%.4f' % (e2r_train_loss, e2r_val_loss, e2r_test_loss))
-        print('R2E: train loss:%.4f, val loss:%.4f, test loss:%.4f' % (r2e_train_loss, r2e_val_loss, r2e_test_loss))
+        print('Preference prediction: train rmse:%.4f, val rmse:%.4f, test rmse:%.4f' % (e2r_train_loss, e2r_val_loss, e2r_test_loss))
+        print('Review generation: train loss:%.4f, val loss:%.4f, test loss:%.4f' % (r2e_train_loss, r2e_val_loss, r2e_test_loss))
         print('Time: %.4fs, train cost:%.4fs, validation cost:%.4fs' % ((t2-t0), (t1-t0), (t2-t1)))

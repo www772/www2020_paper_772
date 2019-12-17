@@ -14,3 +14,7 @@
 4. download data from [link](https://drive.google.com/drive/folders/1ZddKYnz0dCO3cTdlupa_DBexlI9EpW9b?usp=sharing)
 5. download model from [link](https://drive.google.com/open?id=1atz2RyYusL-c1UnlY_3FHSNmGHbYmI9g)
 6. `python entry.py`
+
+
+## default results
++ `amazon electronics datasets; mf_dimension=128; rmse for preference prediction module`
